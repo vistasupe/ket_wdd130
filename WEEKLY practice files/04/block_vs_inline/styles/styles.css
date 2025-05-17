@@ -1,7 +1,7 @@
 
 img { width: 75%; display: block; margin: 0 auto; }
 
-* { border: 2px solid blueviolet; }
+# * { border: 2px solid blueviolet; }
 
 # body { text-align: center; }
 
@@ -11,4 +11,4 @@ nav { text-align: center; }
 
 footer { text-align: center; }
 
-main p { width: 75%; margin: 0 auto; text-align: center}
+main p { width: 75%; margin: 20px auto; text-align: center}
