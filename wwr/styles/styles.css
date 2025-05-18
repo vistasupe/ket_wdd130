@@ -2,12 +2,6 @@
 #content {
   max-width: 1600px; margin: 0 auto;}
 
-nav a {
-  text-align: center;}
-
-main section {
-  text-align: center;}
-
 #hero-msg h1 {
   text-align: center;}
 
@@ -16,6 +10,12 @@ main section {
 
 #background {
   height: 725px:}
+
+nav a {
+  text-align: center;}
+
+main section {
+  text-align: center;}
 
 .button-box {
   text-align: center;}
