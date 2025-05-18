@@ -5,6 +5,9 @@
 nav a {
   text-align: center;}
 
+main section {
+  text-align: center;}
+
 #hero-msg h1 {
   text-align: center;}
 
@@ -14,6 +17,5 @@ nav a {
 .button-box {
   text-align: center;}
 
-main section {
-  text-align: center;}
-
+.mountains {
+  width: 100%}
