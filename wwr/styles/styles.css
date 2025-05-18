@@ -8,6 +8,9 @@
 #hero-msg h4 {
   text-align: center;}
 
+#hero-img {
+  width: 100%}
+
 #background {
   height: 725px;
   background-color: antiquewhite;}
@@ -41,6 +44,9 @@ footer a:hover {
 h4 {
     color:blue}
 
+.logo {
+  width: 90px}
+
 .button-box {
   text-align: center;}
 
@@ -69,5 +75,5 @@ h4 {
   color: #aec56e;
 
 .icon {
-  width: 80px}
+  width: 100px}
 
