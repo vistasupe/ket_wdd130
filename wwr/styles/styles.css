@@ -9,16 +9,65 @@
   text-align: center;}
 
 #background {
-  height: 725px:}
+  height: 725px;
+  background-color: antiquewhite;}
+  
+body {
+  background-color: #807a7a;}
+
+header {
+  background-color: rgb(128, 158, 128);}
 
 nav a {
-  text-align: center;}
+  text-align: center;
+  color: black}
+
+nav a:hover {
+  background-color: black;
+  color: white}
 
 main section {
   text-align: center;}
+
+footer {
+  background-color: rgb(119, 119, 192);
+  color: black;}
+
+footer a {color: black;}
+
+footer a:hover {
+  color: aqua;}
+
+h4 {
+    color:blue}
 
 .button-box {
   text-align: center;}
 
 .mountains {
   width: 100%}
+
+.book {
+  background-color: aqua;
+  color: blue;}
+
+.join {
+  background-color: aqua)}
+
+.book:hover {
+  background-color: aqua;}
+
+.join:hover {
+  background-color: aqua;}
+
+.msg h2 {
+  background-color: aqua;}
+
+.msg p {color: black;}
+
+ .home-title {
+  color: #aec56e;
+
+.icon {
+  width: 80px}
+
