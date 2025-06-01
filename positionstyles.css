@@ -1,5 +1,6 @@
 /* CSS - Name: "positionstyles.css" */
 
+
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
@@ -97,27 +98,33 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
-}
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;}
+
 .red4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
-} 
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  grid-column: 1/2;
+  grid-row: 1/4;}
+
 .green4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
-} 
+  width: 100%;
+  height: 100%;
+  background-color: green;}
+
 .yellow4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-} 
+  width: 100%;
+  height: 100%;
+  background-color: gold;}
+
 .blue4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
+  width: 100%;
+  height: 100%;
+  background-color: blue;}
+
+
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
