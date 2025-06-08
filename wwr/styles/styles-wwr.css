@@ -20,8 +20,7 @@
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
   --nav-hover-link-color: #1e5a88;
-  --nav-hover-background-color: rgb(255, 255, 0);
-  --nav-hover-link-color: #1e5a88;}
+  --nav-hover-background-color: rgb(255, 255, 0);}
 
 #content {
   max-width: 1600px; margin: 0 auto;}
@@ -84,8 +83,6 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;}
 
-
-
 .logo {
   width: 90px}
 
@@ -96,8 +93,6 @@ footer .social img {
 
 .icon {
   width: 80px; padding-top: 10px;}
-
- 
 
 .msg {
     background-color: #6f7364;
@@ -162,7 +157,7 @@ footer .social img {
   grid-row: 1/2;
   margin-top: 100px;}
   
-#hero-msg, h1, #hero-msg, h4, {
+#hero-msg h1, #hero-msg h4, {
   color: whitesmoke
   text-align: center;}
 
