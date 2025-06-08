@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Rock+Salt&display=swap'); */
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #1e5a88;
@@ -14,18 +16,39 @@
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #1e5a88; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #1e5a88;
+  --paragraph-background-color: #4193d1;
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
   --nav-hover-link-color: #1e5a88;
-  --nav-hover-background-color: #1fac65;}
+  --nav-hover-background-color: rgb(255, 255, 0);
+  --nav-hover-link-color: #1e5a88;}
+
+#content {
+  max-width: 1600px; margin: 0 auto;}
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(150, 190, 200);
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
     padding: 0;}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(153, 189, 204);}  
+
+nav a {
+    text-decoration: none;
+    color: var(black);
+    text-align: center;
+    padding: 35px;}
+
+  /* next on the dukes -> nav a:hover, .book:hover, .join:hover */
+nav a:hover {
+  /*background-color: black; color: white} */
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);}     
 
 h2 {
   margin:0;}
@@ -50,7 +73,7 @@ footer a {
   text-decoration: none;}
 
 footer a:hover {
-  color: aqua;}
+  color: rgb(255, 255, 0);}
 
 footer p {
     font-size: 1.2em;}
@@ -61,34 +84,20 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;}
 
-#content {
-  max-width: 1600px; margin: 0 auto;}
+
 
 .logo {
-  width: 80px}
+  width: 90px}
 
 #logo_link {
-    padding-top: 5px;
+    padding-top: 6px;
     justify-self: center;
     align-self: center;}
 
 .icon {
   width: 80px; padding-top: 10px;}
 
-nav {
-    display: flex;
-    justify-content: space-around;}  
-
-nav a {
-    text-decoration: none;
-    color: var(--nav-link-color);
-    text-align: center;
-    padding: 35px;}
-
-nav a:hover {
-  /*background-color: black; color: white} */
-  background-color: var(--nav-hover-background-color);
-  color: var(--nav-hover-link-color);}  
+ 
 
 .msg {
     background-color: #6f7364;
@@ -101,7 +110,7 @@ nav a:hover {
   color: black; padding-bottom: 15px}
 
 .home-title {  
-  color: blue; margin-top: 10px;}
+  color: rgb(255, 255, 0); margin-top: 10px;}
 
 .book, .join {
     background-color: #d9c2a3;
@@ -111,6 +120,10 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;}
+
+.book:hover, .join:hover {
+  background-color: rgb(255, 255, 0);
+  color: (blue);}
 
 .card-img {
     border: 10px solid #d9c2a3;
@@ -144,24 +157,23 @@ nav a:hover {
   z-index: -1;}
   
 #hero-msg {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: 100px;}
   
-#hero-msg h1 {
+#hero-msg, h1, #hero-msg, h4, {
   color: whitesmoke
-  text-align: center;}
-
-#hero-msg h4 {
-  color: whitesmoke;
   text-align: center;}
 
 #hero-img {
   width: 100%}
 
+#hero-msg h1,#hero-msg div,.button-box,main section {
+    text-align: center;}
+
 #background {
-  height: 725px; margin: 100px 0; background-color: rgb(179, 169, 154);}
+  height: 725px; margin: 100px 0; background-color: rgb(180, 170, 150);}
   
 main section {
   text-align: center;}
@@ -170,10 +182,10 @@ main section img {
     box-sizing: border-box;}
 
 h4 {
-    color: blue}
+    color: rgb(255, 255, 0)}
 
-.button-box {
-  text-align: center;}
+/* .button-box { text-align: center; } */
+.button-box, main, section {text-align: center}
 
 .mountains {
     width: 100%;
@@ -207,7 +219,7 @@ h4 {
         color: #6f7364;}
 
     .home-title {
-        font-size: 25px;}
+        font-size: 30px;}
 
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
