@@ -182,6 +182,18 @@ h4 {
 /* .button-box { text-align: center; } */
 .button-box, main, section {text-align: center}
 
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;}
+
+.image-container section {
+  width: 30%; /* Adjust width for spacing */
+  text-align: center;}
+
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
