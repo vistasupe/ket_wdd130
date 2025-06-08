@@ -19,7 +19,7 @@
   --paragraph-background-color: #4193d1;
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
-  --nav-hover-link-color: #1e5a88;
+  --nav-hover-link-color: blue;
   --nav-hover-background-color: rgb(255, 255, 0);}
 
 #content {
@@ -47,7 +47,7 @@ nav a {
 nav a:hover {
   /*background-color: black; color: white} */
   background-color: var(--nav-hover-background-color);
-  color: var(--nav-hover-link-color);}     
+  color: blue;}     
 
 h2 {
   margin:0;}
