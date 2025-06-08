@@ -138,13 +138,19 @@ nav a:hover {
 #hero-box {
   grid-column: 1/4;
   grid-row: 1/3;
-  z-index: -1;}    
+  z-index: -1;}
+  
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;}
   
 #hero-msg h1 {
+  color: whitesmoke
   text-align: center;}
 
 #hero-msg h4 {
-  color: black;
+  color: whitesmoke;
   text-align: center;}
 
 #hero-img {
