@@ -214,7 +214,6 @@ footer {
     justify-content: space-around;
     align-items: center;}
 
-/*
 @media screen and (max-width: 900px) 
 {
     #hero, .home-grid {
@@ -258,4 +257,4 @@ footer {
     footer {
         margin-top: 25px;}
 
-} */
+}
