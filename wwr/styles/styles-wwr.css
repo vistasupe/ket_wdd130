@@ -30,6 +30,14 @@ body {
     margin: 0;
     padding: 0;}
 
+.logo {
+  width: 90px}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -105,14 +113,6 @@ footer p a:hover {
 
 footer .social img {
     padding-top: 15px;}
-
-.logo {
-  width: 90px}
-
-#logo_link {
-    padding-top: 6px;
-    justify-self: center;
-    align-self: center;}
 
 .icon {
   width: 80px; padding-top: 10px;}
