@@ -4,7 +4,7 @@ Fonts are separated by a |
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato'); */
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* I changed the values below to match the colors of the State of Arizona flag. */
   --primary-color: rgb(200, 20, 20);
   --secondary-color: rgb(255, 215, 0);
   --accent1-color: rgba(185, 115, 50);
