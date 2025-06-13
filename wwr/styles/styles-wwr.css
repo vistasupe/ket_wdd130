@@ -1,3 +1,8 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap" rel="stylesheet');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #1e5a88;
@@ -6,14 +11,14 @@
   --accent2-color: #1fac65;
 
     /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
-  --paragraph-font: "Arial Black", "Trebuchet MS", Sans-Serif;
+  --heading-font: "rock salt";
+  --paragraph-font: "open sans", "robato", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #1e5a88;  /* headlines on a colored background */ 
-  --headline-color-on-color: white; /* headlines on a white background */ 
+  --headline-white-on-color: white; /* headlines on a white background */ 
   --paragraph-color-on-white: #1e5a88; /* paragraph text on a colored background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a white background */ 
+  --paragraph-white-on-color: white; /* paragraph text on a white background */ 
   --paragraph-background-color: #4193d1;
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
@@ -53,7 +58,7 @@ nav a {
 nav a:hover {
   /*background-color: black; color: white} */
   background-color: var(--nav-hover-background-color);
-  color: blue;}     
+  color: blue;}   
 
 #hero-img {
   width: 100%}
