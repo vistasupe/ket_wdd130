@@ -9,6 +9,7 @@ Fonts are separated by a & */
   --secondary-color: #60bfd6;
   --accent1-color: #0e6439;
   --accent2-color: #1fac65;
+  --make-it-pop-color: #ffff00;
 
     /* change the values below to your chosen font(s) */
   --heading-font: "rock salt";
@@ -23,10 +24,14 @@ Fonts are separated by a & */
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
   --nav-hover-link-color: blue;
-  --nav-hover-background-color: rgb(255, 255, 0);}
+  --nav-hover-background-color: #ffff00;}
 
 #content {
   max-width: 1600px; margin: 0 auto;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);}
 
 body {
     background-color: rgb(150, 190, 200);
@@ -46,7 +51,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color:rgb(155, 190, 200);}  
+    background-color:rgb(150, 190, 200);}  
 
 nav a {
     text-decoration: none;
@@ -71,7 +76,7 @@ nav a:hover {
   #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 200px;}
+  margin-top: 100px;}
 
 #hero-box {
   grid-column: 1/4;
@@ -83,7 +88,6 @@ nav a:hover {
 
 #hero-msg h1,#hero-msg div,.button-box,main section {
     text-align: center;}
-
 
 h2 {
   margin:0;}
@@ -108,7 +112,7 @@ footer a {
   text-decoration: none;}
 
 footer a:hover {
-  color: rgb(255, 255, 0);}
+  color: #ffff00;}
 
 footer p {
     font-size: 1.2em;}
@@ -133,19 +137,19 @@ footer .social img {
   color: black; padding-bottom: 15px}
 
 .home-title {  
-  color: rgb(255, 255, 0); margin-top: 10px;}
+  color: #ffff00; margin-top: 10px;}
 
 .book, .join {
     background-color: #d9c2a3;
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;}
 
 .book:hover, .join:hover {
-  background-color: rgb(255, 255, 0);
+  background-color: #ffff00;
   color: blue;}
 
 .rivers-card, .camping-card, .rapids-card {
@@ -194,7 +198,7 @@ main section img {
     box-sizing: border-box;}
 
 h4 {
-    color: rgb(255, 255, 0)}
+    color: #ffff00}
 
 #background {
   height: 725px; 

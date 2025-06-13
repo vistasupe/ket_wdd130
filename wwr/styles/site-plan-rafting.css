@@ -11,7 +11,7 @@ Fonts are separated by a & */
   --secondary-color: #60bfd6;
   --accent1-color: #0e6439;
   --accent2-color: #1fac65;
-
+  --make-it-pop-color: #ffff00;
   
   /* change the values below to your chosen font(s) */
   --heading-font: "rock salt";
@@ -26,7 +26,7 @@ Fonts are separated by a & */
   --nav-link-color: #1a5a88;
   --nav-background-color: #60bfd6;
   --nav-hover-link-color: blue;
-  --nav-hover-background-color: rgb(255, 255, 0);}
+  --nav-hover-background-color: #ffff00;}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 body {
